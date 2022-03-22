@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  margin: 0.5em 0;
+  font-size: 3rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  padding: 34px;
+  border-radius: 6px;
+}
+
+.todo_field {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5em 0;
+  /* border: 2px solid red; */
+  padding: 0.5em 0.5em;
+}
+
+.todo_field > input {
+  width: 20em;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-weight: 400;
+  color: #333;
+  border: 1.5px solid #c7bebe;
+  border-bottom-width: 2.5px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+#listBox {
+  margin: 2em 0;
+}
+
+.todo_list {
+  /* border: 2px solid green; */
+  padding: 0.5em 0.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.7em 0;
+}
+
+#add-task-btn {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 0.2em 0.5em;
+  border-radius: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#save-todo-btn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 0.1em 0.3em;
+  border-radius: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.2em;
+}
+
+.edit_btn {
+  background-color: blue; /* Green */
+  border: none;
+  color: white;
+  padding: 0.2em 0.5em;
+  border-radius: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.del_btn {
+  background-color: red; /* Green */
+  border: none;
+  color: white;
+  padding: 0.2em 0.5em;
+  border-radius: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
